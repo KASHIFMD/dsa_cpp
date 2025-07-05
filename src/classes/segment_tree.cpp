@@ -51,3 +51,5 @@ int main(){
     int ans = tree.query(0, 0, n-1, L, R);
     cout << ans << endl;
 }
+
+
