@@ -12,7 +12,7 @@ public:
         n = a.size();
         assert(n>0);
         int maxLog = 32 - __builtin_clz(n); // (what's the position of most highest index after which all are '0')
-        // int maxLog = floor(log2(n)+1); // this line same as above
+        // int maxLog = floor(log2(n))+1; // this line same as above
         st.assign(n, vector<int>(maxLog));
         logVal.resize(n+1); 
         for (int i = 2; i <= n; i++) // n+1 is must
