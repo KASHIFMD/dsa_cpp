@@ -1,2 +1,10 @@
-not same
-same
+code started ...
+n: 7
+temp: 2
+temp: 4
+temp: 6
+temp: 1
+temp: 4
+temp: 5
+temp: 13
+23

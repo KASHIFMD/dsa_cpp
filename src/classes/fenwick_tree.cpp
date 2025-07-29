@@ -1,7 +1,8 @@
 // #include<cmath.h>
 #include<bits/stdc++.h>
+using namespace std;
 
-const int N = 100000+5;
+const int N = 100000 + 5;
 int fen[N];
 void update(int i, int add){
     while(i<N){
@@ -36,6 +37,19 @@ int find(int k){
 }
 
 int main(){
-    
+    int n;
+    cout <<"code started ..." << endl;
+    cin >> n;
+    cout << "n: " << n << endl;
+    for (int i = 1; i <= n; i++)
+    {
+        int temp;
+        cin >> temp;
+        cout << "temp: " << temp << endl;
+        update(i, temp);
+    }
+    int t = rangeSum(4, 7);
+    cout << t << endl;
+
     return 0;
 }
